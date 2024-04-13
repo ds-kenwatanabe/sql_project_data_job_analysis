@@ -28,7 +28,7 @@ The dataset was trimmed down using SQL queries and analyzed and displayed in Pow
 * Git & GitHub: Used for version control and sharing SQL scripts and analysis, ensuring collaboration and project tracking.
 
 ## Analysis 📊
-* 🌎 Worlwide analysis used two separate datsets, see the codes below: 
+* 🌎 Worlwide analysis, see the codes below: 
 
 ### Top 100 best paying jobs worldwide 💰:
 ```sql
@@ -89,7 +89,7 @@ ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY salary_year_avg DESC;
 ```
 
-### Top average paying skills in Brazil 💹:
+### Top 10 average paying skills in Brazil 💹:
 ```sql
 SELECT
     skills,
@@ -190,7 +190,7 @@ O conjunto de dados foi reduzido usando consultas SQL e analisado e exibido no P
 * Git & GitHub: Usado para controle de versão e compartilhamento de scripts SQL e análises, garantindo colaboração e acompanhamento do projeto.
 
 ## Análise 📊
-🌎 A análise global utilizou dois conjuntos de dados separados, veja os códigos abaixo:
+🌎 Análise global, veja os códigos abaixo:
 
 ### Top 100 empregos mais bem pagos no mundo 💰:
 ```sql
@@ -251,7 +251,7 @@ ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY salary_year_avg DESC;
 ```
 
-### Principais habilidades salariais médias no Brasil 💹:
+### As 10 principais habilidades por remuneração média no Brasil 💹:
 ```sql
 SELECT
     skills,
