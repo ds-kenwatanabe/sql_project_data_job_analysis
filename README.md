@@ -11,6 +11,7 @@ to find the top-paying jobs and most valuable skills worlwide 🌎 and for Brazi
 * The analysis for Brazil was somewhat different than the worldwide one, focusing more on the salary/skill relationship instead of the companies, diversifying the results and showing different ways to analyze data.
 
 The project was based on Luke Barousse's project, check out his [site](https://www.lukebarousse.com/sql).
+You can dowload the dataset files directly from his site and load them into PostgreSQL using the files: [sql_load](/sql_load/) 
 
 ## Background
 The project used a larger dataset of real-world data science job postings from 2023. 
@@ -173,6 +174,7 @@ com a esperança de simplificar o processo para outros encontrarem oportunidades
 * A análise para o Brasil foi um pouco diferente da análise global, focando mais na relação entre salário e habilidades, em vez de nas empresas, diversificando os resultados e mostrando diferentes maneiras de analisar dados.
 
 O projeto foi baseado no projeto de Luke Barousse, confira o site dele: [site](https://www.lukebarousse.com/sql).
+Você pode baixar os arquivos do conjunto de dados diretamente do site dele e carregá-los no PostgreSQL usando os arquivos: [sql_load](/sql_load/)
 
 ## Contexto
 O projeto utilizou um conjunto de dados maior de vagas de emprego em ciência de dados do mundo real de 2023.
